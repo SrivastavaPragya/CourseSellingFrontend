@@ -1,0 +1,136 @@
+/* Header.css */
+@import url("https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Coiny&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.header {
+  padding-inline: 8rem;
+  background-color: rgb(34, 34, 34);
+  height: 7.8rem;
+}
+.logo {
+  > img {
+    height: 2rem;
+    width: 9rem;
+  }
+}
+
+.HeaderLowerPart {
+  display: flex;
+  margin-top: 1rem;
+}
+.menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.menuItem {
+  margin: 0 10px;
+  > a {
+    color: azure;
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 1.1rem;
+  }
+}
+
+.search {
+  display: flex;
+  /* padding-top: 0.8rem;
+  padding-bottom: 0.8rem;
+  padding-left: 2.5rem;
+  padding-right: 4.5rem; */
+  padding: .8rem 1.8rem;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  border-top-left-radius: 35px;
+ 
+  width: 12rem;
+
+  border: 1px solid rgba(150, 150, 150, 0.652);
+  background-color: rgb(34, 34, 34);
+ 
+  color: white;
+  
+
+  >input{
+    width: 100%;
+    /* padding: .5rem; */
+    font-size: .9rem;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    font-family: "Poppins", sans-serif;
+    
+    color: white;
+    &::placeholder{
+        font-size: 1rem;
+        font-weight: 400;
+        color: antiquewhite;
+    }
+  }
+}
+
+.fa {
+  margin-right: 10px;
+
+  font-size: 1rem;
+  
+}
+
+.login h3,
+.register h3 {
+  display: inline;
+}
+
+/* You can also style the icons directly if needed */
+.login .fa,
+.register .fa {
+  vertical-align: middle; /* Align the icon vertically with the text */
+}
+
+.HeaderUpperpart {
+  padding-top: 1.3rem;
+  padding-bottom: 0.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid rgb(150, 150, 150);
+}
+
+.iconpart2 {
+  display: flex;
+  margin-right: 28px;
+  color: rgb(150, 150, 150);
+}
+
+.login {
+  margin-right: 25px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  font-size: 0.9rem;
+}
+.register {
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  font-size: 0.9rem;
+}
+
+.iconpart1 {
+  font-size: 1.2rem;
+  color: rgb(150, 150, 150);
+}
+
+.part1icon:not(:last-child) {
+  margin-right: 18px; /* This will add a right margin to all icons except the last one */
+}
+
+.bottomBorder {
+  color: rgb(150, 150, 150);
+}
