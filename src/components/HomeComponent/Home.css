@@ -94,17 +94,19 @@ font-weight: 600;
 .lowerpart{
   margin-inline: 3rem;
   padding-inline: 3rem;
+  display: flex;
 }
 
 
 .lowerRight{
+ 
   
     width: 50%;
     
 }
 
 .rightIcons {
- margin: 2rem;
+ margin: 2rem .6rem;
     display: flex;
     flex-direction: column;
   }
@@ -120,14 +122,429 @@ font-weight: 600;
  
   .iconTextPair span {
    
-    font-size: 1.3rem;
+    font-size: 1rem;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    
    
   }
-  
+.rightHeading{
 
+  >h1{
+    font-family: "Poppins", sans-serif;
+    font-size: 2.2rem;
+    font-weight: 700;
+  }
+  >p{
+    font-size: 1rem;
+    font-family: "Roboto", sans-serif;
+    margin-top: 2rem;
+    font-weight: 300;
+    line-height: 2rem;
+    max-width: 35rem;
+  }
+
+}
+
+  
+.rightHeadingStyle{
+  border-bottom: 4px solid rgb(0,237,164);
+  
+}
   .StyleIcon{
     margin-right: 1rem;
-    color: rgb(9,226,170);
- font-size: 2rem;
- font-weight: 400;
+    color:rgb(26,235,196);
+ font-size: 1.9rem;
+ font-weight: 200;
   }
+
+  .lowerRightbutton{
+ margin-inline: 2rem;
+ margin-top: -1rem;
+ 
+
+
+
+    >button{
+      padding: 1rem 3rem;
+      border-top-left-radius: 34px;
+      font-family: "Poppins", sans-serif;
+      background-color:rgb(0,237,164) ;
+      color: white;
+      border: none;
+      font-size: 1.1rem;
+      border-top-right-radius:8px;
+      border-bottom-left-radius:8px ;
+      border-bottom-right-radius: 8px;
+      font-weight: 400;
+
+    }
+  }
+
+
+  .lowerLeft{
+  
+    width: 50%;
+    display: flex;
+   gap: 1rem;
+    
+  }
+
+  .lowerPartLeft{
+   
+    margin: 1rem .5rem;
+    
+  
+    height: 32rem;
+    width: 50%;
+    object-fit: contain;
+    border-radius: 15px;
+    >img{
+      width: 100%;
+      height: 100%;
+      border-radius: 15px;
+     
+      
+    }
+  }
+  .lowerPartRight{
+    margin: 2.3rem .5rem;
+    border-radius: 15px;
+ 
+   
+    width: 50%;
+    object-fit: contain;
+    >img{
+      width: 100%;
+      height: 100%;
+      border-radius: 15px;
+     
+    }
+  }
+
+
+/* know us */
+
+.KnowContainer{
+  background-image: url('/violet.jpg');
+ 
+  margin: 5rem 0rem;
+  height: 60vh;
+  background-repeat: no-repeat;
+ 
+  display: flex;
+ justify-content: center;
+ align-items: center;
+
+ background-color: rgb(250,250,250);
+ 
+
+  
+}
+
+
+.knowGrid{
+  width: 100%;
+ 
+
+  justify-items: center;
+  align-items: center;
+padding: 7rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+
+.learn{
+
+
+height: 38vh;
+width: 20vw;
+text-align: center;
+padding: 5rem;
+>img{
+  height: 3rem;
+  width: 3rem;
+}
+>h1{
+  
+margin-top: 1.7rem;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.3rem;
+
+}
+>h3{
+  font-family: "Roboto", sans-serif;
+  font-size: 1.3rem;
+  font-weight: 300;
+
+}
+ 
+  
+}
+
+.future{
+
+
+  margin-inline: 1.5rem; 
+ 
+  height: 38vh;
+  width: 20vw;
+  text-align: center;
+  padding: 5rem;
+  >img{
+    height: 3rem;
+    width: 3rem;
+  }
+  >h1{
+  
+    margin-top: 1.7rem;
+      font-family: "Poppins", sans-serif;
+      font-size: 1.3rem;
+    
+    }
+    >h3{
+      font-family: "Roboto", sans-serif;
+      font-size: 1.3rem;
+      font-weight: 300;
+    
+    }
+  
+}
+
+.that{
+  
+  height: 38vh;
+  width: 20vw;
+  text-align: center;
+  padding: 5rem;
+  margin-inline: 1.5rem;
+  >img{
+    height: 3rem;
+    width: 3rem;
+  }
+  >h1{
+  
+    margin-top: 1.7rem;
+      font-family: "Poppins", sans-serif;
+      font-size: 1.3rem;
+    
+    }
+    >h3{
+      font-family: "Roboto", sans-serif;
+      font-size: 1.3rem;
+      font-weight: 300;
+    
+    }
+}
+
+
+.all{
+
+height: 38vh;
+width: 20vw;
+text-align: center;
+padding: 5rem;
+>img{
+  height: 3rem;
+  width: 3rem;
+}
+>h1{
+  
+  margin-top: 1.7rem;
+    font-family: "Poppins", sans-serif;
+    font-size: 1.3rem;
+  
+  }
+  >h3{
+    font-family: "Roboto", sans-serif;
+    font-size: 1.3rem;
+    font-weight: 300;
+  
+  }
+  
+}
+
+
+.learn:hover, .future:hover ,.all:hover,.that:hover{
+  background-color: rgb(99, 132, 236); /* Background color on hover */
+  border-top-left-radius: 40px;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+  border-bottom-left-radius: 8px;
+}
+
+
+
+/* StartlearningPage */
+.learningUpperPart{
+ 
+
+ margin: 0rem 8rem;
+ margin-top: 2rem;
+ padding-inline: 8rem;
+ text-align: center;
+ >p {
+  max-width: 53vw;
+  margin-inline: 6rem;
+  padding-inline: 4rem;
+  margin-top: 2.5rem;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.15rem;
+  font-weight: 300;
+  line-height: 1.8rem;
+  color: rgba(0, 0, 0, 0.79);
+  text-align: center;
+  letter-spacing: 1px;
+ 
+}
+
+ 
+ >h4{
+  margin-top: .5rem;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.5;
+  font-weight: 300;
+ }
+
+ >h1{
+  font-family: "Poppins", sans-serif;
+font-size:2.5rem ;
+font-weight: 800;
+ }
+}
+
+.learningLowerPart{
+
+  display: flex;
+  justify-content: space-between;
+  margin: 6rem 0rem;
+
+  
+}
+
+.right{
+  
+  height: 12rem;
+  width: 50%;
+  background-color: rgb(0,237,164);
+  color: white;
+display: flex;
+flex-direction: column;
+align-items: center;
+font-family: "Poppins", sans-serif;
+font-size: .8rem;
+font-weight: 500;
+>h2{
+  margin-top: 4.5rem;
+  margin-left: 12rem;
+
+}
+
+h3 {
+  margin-left: 9.6rem;
+  margin-top: .4rem;
+  position: relative; /* Needed for positioning the pseudo-element */
+  overflow: hidden; /* Ensures the border does not bleed outside the content */
+}
+
+h3::after {
+  content: '';
+  position: absolute;
+  bottom: 0; /* Align to the bottom of h3 */
+  left: 0; /* Align to the left of h3 */
+  right: 0; /* Align to the right of h3 */
+  height: 1px; /* Border thickness */
+  background: white; /* Border color */
+  transition: transform 0.3s ease; /* Animate the transform property */
+  transform: scaleX(1); /* Full width by default */
+  transform-origin: center; /* Scale from the center */
+}
+
+h3:hover::after {
+  transform: scaleX(0.8); /* Shrink to 80% of its width on hover */
+}
+
+
+}
+
+
+.left{
+ 
+  height: 12rem;
+  width: 50%;
+  background-color: rgb(106,125,241);
+  color: #F1F1F1;
+  display: flex;
+flex-direction: column;
+align-items: center;
+font-family: "Poppins", sans-serif;
+  font-size: .8rem;
+  font-weight: 500;
+>h2{
+  margin-top: 4.5rem;
+  margin-right: 12rem;
+  
+  
+
+
+}
+h3 {
+  margin-right: 9.6rem;
+  margin-top: .4rem;
+  position: relative; /* Needed for positioning the pseudo-element */
+  overflow: hidden; /* Ensures the border does not bleed outside the content */
+}
+
+h3::after {
+  content: '';
+  position: absolute;
+  bottom: 0; /* Align to the bottom of h3 */
+  left: 0; /* Align to the left of h3 */
+  right: 0; /* Align to the right of h3 */
+  height: 1px; /* Border thickness */
+  background: white; /* Border color */
+  transition: transform 0.3s ease; /* Animate the transform property */
+  transform: scaleX(1); /* Full width by default */
+  transform-origin: center; /* Scale from the center */
+}
+
+h3:hover::after {
+  transform: scaleX(0.8); /* Shrink to 80% of its width on hover */
+}
+
+  
+}
+
+
+
+
+/* journey css starts */
+
+.startContainer{
+  background-image: url('/doodleimage.jpg');
+  margin: 5rem 0rem;
+  height: 60vh;
+  background-size: cover;
+  background-position: center; /* Align the image nicely in the center */
+  background-repeat: no-repeat; /* Prevent the image from repeating */
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+
+}
+
+.startUpper{
+  border: 2px solid red;
+  margin-bottom: 4rem;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ >h3{
+  margin-top: .5rem;
+ }
+ >button{
+  margin-top: 3rem;
+ }
+}
