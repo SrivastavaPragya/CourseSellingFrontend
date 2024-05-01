@@ -5,6 +5,7 @@ import WhyUs from './WhyUs'
 import KnowUs from './KnowUs'
 import StartLearning from './StartLearning'
 import Journey from './Journey'
+import Author from './Author'
 
 
 const Home = () => {
@@ -13,6 +14,7 @@ const Home = () => {
     <HeroPage/>
   <WhyUs/>
  <KnowUs/>
+ <Author/>
  <StartLearning/>
  <Journey/>
     </div>
