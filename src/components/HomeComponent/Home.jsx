@@ -6,6 +6,7 @@ import KnowUs from './KnowUs'
 import StartLearning from './StartLearning'
 import Journey from './Journey'
 import Author from './Author'
+import ExpandDiv from './ExpandDiv'
 
 
 const Home = () => {
@@ -15,6 +16,7 @@ const Home = () => {
   <WhyUs/>
  <KnowUs/>
  <Author/>
+ <ExpandDiv/>
  <StartLearning/>
  <Journey/>
     </div>
