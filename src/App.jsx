@@ -4,6 +4,8 @@ import Home from './components/HomeComponent/Home';
 
 import Header from './components/Header/Header'
 import Footer from './components/Footer/Footer';
+import './App.css'
+import About from './components/About/About';
 
 const App = () => {
   return (
@@ -11,6 +13,7 @@ const App = () => {
 <Header/>
     <Routes>
     <Route path="/" element={<Home />} />
+    <Route path="/about" element={<About />} />
     
 
  </Routes>
