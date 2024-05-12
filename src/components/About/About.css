@@ -13,7 +13,7 @@
 
 margin-inline: 4rem;
 margin-top: 4rem;
-margin-bottom: 3rem;
+margin-bottom: 1rem;
 
 
 
@@ -106,4 +106,138 @@ padding-inline: 1.5rem;
     display: flex;
    gap: 2rem;
    
+}
+
+
+/* Education css */
+
+.EducationContainer{
+  background-image: url('/fw12.webp');
+ 
+  height: 80vh;
+  background-repeat: no-repeat;
+ 
+  display: flex;
+
+
+ margin-bottom: 4erm;
+ background-color: rgb(250,250,250);
+}
+
+.EducationLeftContainer{
+margin: 1rem 3rem;
+
+  width: 50%;
+  padding: 1rem 4rem;
+
+
+  >h1{
+    
+  font-family: "Poppins", sans-serif;
+    font-size: 2rem;
+    font-weight: 800;
+    line-height: 2.5rem;
+    width: 40rem;
+  }
+
+
+  >p{
+    margin-top: 3rem;
+    font-family: "Roboto", sans-serif;
+    font-size: 1.2rem;
+    font-weight: 400;
+    line-height: 2rem;
+    color: rgba(0, 0, 0, 0.545);
+  }
+  
+  
+}
+
+.EducationRightContainer{
+  margin: 1rem 3rem;
+  width: 50%;
+ 
+  
+  max-width: 500px; 
+  margin: 20px auto;
+  font-family: Arial, sans-serif; /* Default font */
+
+ 
+  
+}
+
+
+
+
+
+.skillName {
+  margin-bottom: 5px;
+  font-size: .99rem; 
+  font-weight: 700;
+  color: #333; 
+  margin-top: 2.7rem;
+  font-family: "Poppins", sans-serif;
+}
+
+.skillBar {
+  width: 100%;
+  background-color: #eee;
+  height: 14px; 
+  position: relative;
+  border-radius: 6px;
+ 
+}
+
+.skillProgress {
+  height: 100%;
+  background-color: rgb(71,161,216); /* Green background color for progress */
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: flex;
+  align-items: center;
+  border-radius: 6px;
+  justify-content: flex-end;
+  color: white; /* White text color */
+  padding-right: 5px; /* Padding for the percentage text */
+}
+
+.skillPercent {
+  font-size: 10px; 
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+
+}
+
+
+
+.EduStyle{
+  border-bottom: 4px solid  rgb(0,237,164)
+}
+
+
+
+.partner{
+  display: flex;
+
+  margin-top: 1.4rem;
+justify-content: space-around;
+
+margin-right: 4rem;
+
+}
+
+.partner1,.partner2,.partner3{
+
+ padding: 1.4rem 2.4rem;
+ 
+}
+
+.partner1{
+ background-color: white;
+}
+
+
+.partner > div:hover {
+  background-color: rgb(120, 120, 249); /* Change background color on hover */
 }
