@@ -241,3 +241,29 @@ margin-right: 4rem;
 .partner > div:hover {
   background-color: rgb(120, 120, 249); /* Change background color on hover */
 }
+
+
+/* 
+Discover css */
+
+.DicoverContent{
+  background-image: url('/fw13.jpg');
+ 
+  height: 100vh;
+ 
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: flex;
+
+ 
+ 
+ 
+}
+
+
+.DicoverLeft{
+  border: 2px solid red;
+  margin: 4rem;
+  width: 40%;
+  
+}
