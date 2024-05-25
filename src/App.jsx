@@ -8,6 +8,7 @@ import './App.css'
 import About from './components/About/About';
 import Services from './components/Services/Services';
 import CourseSection from './components/CoursesSection/Courses'
+import Contact from './components/Contact/Contact';
 
 
 const App = () => {
@@ -19,6 +20,7 @@ const App = () => {
     <Route path="/about" element={<About />} />
     <Route path="/services" element={<Services />} />
     <Route path="/courses" element={<CourseSection />} />
+    <Route path="/contact" element={<Contact />} />
     
 
  </Routes>
